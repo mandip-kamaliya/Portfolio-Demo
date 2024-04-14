@@ -1,0 +1,97 @@
+.contect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 60px;
+}
+.contect-title {
+  position: relative;
+  padding: 0px auto;
+}
+.contect-title h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.contect-title img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -7;
+}
+.contect-section {
+  display: flex;
+  gap: 150px;
+}
+.contect-section left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+}
+.contect-section h1 {
+  font-size: 48px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contect-left p {
+  max-width: 550px;
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 35px;
+}
+.contect-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 33px;
+  color: #d8d8d8;
+}
+.contect-detail {
+  display: flex;
+  gap: 20px;
+}
+.contect-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contect-right label {
+  font-size: 22px;
+  font-weight: 400;
+  color: #d8d8d8;
+}
+.contect-right input {
+  width: 700px;
+  border: none;
+  height: 68px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+}
+.contect-right textarea{
+  width: 650px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 20px;
+  background: #32323c;
+  color: #a0a0a0;
+}
+.contect-button{
+  border: none;
+  width: 100px;
+  padding: 20px 50px;
+  border-radius: 50px;
+  color: white;
+  background:  linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  font-size: 22px;
+  margin-bottom: 80px;
+}
+.contect-button:hover{
+  transform: scale(1.1);
+  transition: 0.6s;
+}
